@@ -18,6 +18,6 @@
     top: 0;
     right: 0;
     padding: 5px;
-    margin-top: 3px; /* Adjust the margin as needed */
-    transform: rotate(-90deg); /* Rotate the button */
+    margin-top: px; /* Adjust the margin as needed */
+    transform: rotate(90deg); /* Rotate the button */
 }
