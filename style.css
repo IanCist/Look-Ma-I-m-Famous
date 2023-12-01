@@ -1,0 +1,23 @@
+.nav-item {
+    font-weight: bold;
+}
+
+.navtext {
+    font-size: x-large;
+}
+
+.rounded-quarter-circle {
+    width: 40px; /* Adjust the size as needed */
+    height: 40px; /* Adjust the size as needed */
+    border-radius: 0 0 50% 0;
+    background-color: black; /* Adjust the background color */
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    margin-top: 3px; /* Adjust the margin as needed */
+    transform: rotate(-90deg); /* Rotate the button */
+}
