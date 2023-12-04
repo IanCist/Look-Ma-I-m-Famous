@@ -10,7 +10,7 @@
     width: 40px; /* Adjust the size as needed */
     height: 40px; /* Adjust the size as needed */
     border-radius: 0 0 50% 0;
-    background-color: black; /* Adjust the background color */
+    background-color: lightblue; /* Adjust the background color */
     border: none;
     outline: none;
     cursor: pointer;
@@ -22,6 +22,33 @@
     transform: rotate(90deg); /* Rotate the button */
 }
 #carouselExampleIndicators {
-    border-radius: 15px; 
+    max-height: 500px;
+    border-radius: 40px; 
     overflow: hidden; 
   }
+ 
+  .carousel-control-prev, .carousel-control-next {
+color: black;
+  }
+
+  #video-container {
+    border-radius: 30px;
+    overflow: hidden;
+  }
+  #video-container video {
+    width: 100%;
+    height: auto;
+  }
+  .container {
+    border: 1px solid #ccc; 
+    border-radius: 10px;    
+    padding: 20px;          
+  }
+
+  #text-container {
+    border: 1px solid #ccc; 
+    border-radius: 10px;    
+    padding: 10px;      
+  }
+
+ 
