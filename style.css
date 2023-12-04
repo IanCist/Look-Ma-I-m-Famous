@@ -21,3 +21,7 @@
     margin-top: 3px; /* Adjust the margin as needed */
     transform: rotate(90deg); /* Rotate the button */
 }
+#carouselExampleIndicators {
+    border-radius: 15px; 
+    overflow: hidden; 
+  }
